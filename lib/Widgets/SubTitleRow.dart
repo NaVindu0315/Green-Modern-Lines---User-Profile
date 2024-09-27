@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class TitleRow extends StatelessWidget {
+class SubtitleRow extends StatelessWidget {
   final String text;
 
-  const TitleRow({
+  const SubtitleRow({
     Key? key,
     required this.text,
   }) : super(key: key);
