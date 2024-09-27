@@ -17,7 +17,7 @@ class CustomLongButton extends StatelessWidget {
         height: 60,
         margin: const EdgeInsets.symmetric(horizontal: 40),
         decoration: BoxDecoration(
-          color: Colors.purple,
+          color: Colors.deepPurple,
           borderRadius: BorderRadius.circular(10),
         ),
         child: Center(
