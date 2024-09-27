@@ -1,8 +1,12 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 
+import 'Services/httpcert.dart';
 import 'Views/ProfileView.dart';
 
-void main() {
+void main() async {
+  HttpOverrides.global = MyHttpOverrides();
   runApp(const MYApp());
 }
 
